@@ -1,0 +1,18 @@
+.page-body {
+    padding: 0px 12rem;
+    margin-top: 3rem;
+  }
+  
+  mat-icon {
+    font-size: 2rem;
+    color: brown;
+  }
+  
+  .alignment {
+    margin: auto;
+  }
+  
+  .example-header-image {
+    margin-top: 17px;
+  }
+  

@@ -1,0 +1,31 @@
+::ng-deep .mat-vertical-stepper-content {
+    visibility: visible !important;
+    height: 100% !important;
+  }
+  
+  .page-body {
+    padding: 0px 12rem;
+  }
+  
+  ::ng-deep mat-step-header .mat-step-icon-selected {
+    border-radius: 50%;
+    height: 11px !important;
+    width: 11px !important;
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+    position: relative;
+    background-color: brown !important;
+    color: brown !important;
+  }
+  
+  ::ng-deep mat-step-header .mat-step-icon {
+    border-radius: 50%;
+    height: 11px !important;
+    width: 11px !important;
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+    position: relative;
+    background-color: brown !important;
+    color: brown !important;
+  }
+  

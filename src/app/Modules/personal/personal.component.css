@@ -1,0 +1,15 @@
+.page-body {
+    margin: auto;
+    margin-top: 2rem;
+    padding: 0 12rem;
+  }
+  mat-card-header {
+    color: brown;
+  }
+  mat-card-content {
+    padding: 2rem;
+  }
+  mat-card {
+    margin-bottom: 1rem;
+  }
+  

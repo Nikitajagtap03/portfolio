@@ -1,0 +1,22 @@
+<div id="professional" class="page-body">
+    <div class="introduction">
+        <img src="./assets/nikitaimage.PNG" alt="Nikita Image" width="110" height="110" style="border-radius:50%">
+        <div>
+            <h1>Hey, I'm Nikita ;)</h1>
+        </div>
+        <div>
+            <h4>
+                Frontend Developer
+            </h4>
+        </div>
+    </div>
+    <div>
+        <nav mat-tab-nav-bar mat-align-tabs="center">
+            <a mat-tab-link *ngFor="let link of navLinks" (click)="activeLink=link.label" routerLink={{link.link}}
+                [active]="link.label == activeLink">
+                {{link.label}}
+            </a>
+        </nav>
+    </div>
+</div>
+<router-outlet></router-outlet>

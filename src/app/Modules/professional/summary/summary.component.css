@@ -1,0 +1,14 @@
+.about {
+    text-align: justify;
+    padding: 2rem;
+  
+    border-radius: 8px;
+    margin-top: 1.5rem;
+  }
+  .page-body {
+    padding: 0px 12rem;
+  }
+  .mat-chip {
+    margin: 0.5rem 1rem !important;
+  }
+  

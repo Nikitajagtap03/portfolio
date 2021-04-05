@@ -1,0 +1,22 @@
+#appRoot .navbar {
+    justify-content: space-between;
+    color: white;
+    background-color: brown;
+    position: sticky;
+    top: 0; /* Sets the sticky toolbar to be on top */
+    z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+  }
+  
+  #appRoot a {
+    padding-right: 1rem;
+    font-size: 0.7em;
+    color: white;
+    transition: color 1s;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  #appRoot a:hover {
+    color: #8a8a8a;
+  }
+  

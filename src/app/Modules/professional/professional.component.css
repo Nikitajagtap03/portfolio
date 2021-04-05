@@ -1,0 +1,19 @@
+.introduction {
+    margin: auto;
+    padding: 3rem;
+    text-align: center;
+  }
+  .page-body {
+    background: radial-gradient(black, transparent);
+    color: white;
+  }
+  /* active tab */
+  ::ng-deep .mat-tab-link {
+    color: brown !important;
+  }
+  
+  /* ink bar */
+  ::ng-deep .mat-ink-bar {
+    background-color: white !important;
+  }
+  
